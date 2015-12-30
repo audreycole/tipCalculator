@@ -14,6 +14,8 @@
 		0DFA7DF51C3349860067034D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DFA7DF31C3349860067034D /* LaunchScreen.storyboard */; };
 		0DFA7E001C3349860067034D /* tipsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFA7DFF1C3349860067034D /* tipsTests.swift */; };
 		0DFA7E0B1C3349860067034D /* tipsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFA7E0A1C3349860067034D /* tipsUITests.swift */; };
+		0DFA7E191C345FE50067034D /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0DFA7E181C345FE50067034D /* README.txt */; };
+		0DFA7E1B1C3461D10067034D /* walkThrough.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0DFA7E1A1C3461D10067034D /* walkThrough.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		0DFA7E061C3349860067034D /* tipsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DFA7E0A1C3349860067034D /* tipsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipsUITests.swift; sourceTree = "<group>"; };
 		0DFA7E0C1C3349860067034D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DFA7E181C345FE50067034D /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		0DFA7E1A1C3461D10067034D /* walkThrough.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = walkThrough.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +101,14 @@
 		0DFA7DE91C3349860067034D /* tips */ = {
 			isa = PBXGroup;
 			children = (
+				0DFA7E1A1C3461D10067034D /* walkThrough.gif */,
 				0DFA7DEA1C3349860067034D /* AppDelegate.swift */,
 				0DFA7DEC1C3349860067034D /* ViewController.swift */,
 				0DFA7DEE1C3349860067034D /* Main.storyboard */,
 				0DFA7DF11C3349860067034D /* Assets.xcassets */,
 				0DFA7DF31C3349860067034D /* LaunchScreen.storyboard */,
 				0DFA7DF61C3349860067034D /* Info.plist */,
+				0DFA7E181C345FE50067034D /* README.txt */,
 			);
 			path = tips;
 			sourceTree = "<group>";
@@ -230,7 +236,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DFA7DF51C3349860067034D /* LaunchScreen.storyboard in Resources */,
+				0DFA7E1B1C3461D10067034D /* walkThrough.gif in Resources */,
 				0DFA7DF21C3349860067034D /* Assets.xcassets in Resources */,
+				0DFA7E191C345FE50067034D /* README.txt in Resources */,
 				0DFA7DF01C3349860067034D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
